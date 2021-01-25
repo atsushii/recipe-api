@@ -25,4 +25,7 @@ class UserAdmin(BaseUserAdmin):
     )
 
 
+# use cosutom user model
 admin.site.register(models.User, UserAdmin)
+# use default model
+admin.site.register(models.Tag)
