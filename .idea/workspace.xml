@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3280d279-df8e-41b5-a06b-7fda3bee3266" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/recipe/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/views.py" afterDir="false" />
     </list>
@@ -32,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="888">
-              <caret line="107" selection-start-line="107" selection-end-line="107" />
+              <caret line="159" selection-start-line="159" selection-end-line="159" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
               </folding>
@@ -43,11 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/recipe/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="585">
+              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -55,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/recipe/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
+            <state relative-caret-position="870">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -72,8 +68,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/recipe/views.py" />
         <option value="$PROJECT_DIR$/app/recipe/serializers.py" />
+        <option value="$PROJECT_DIR$/app/recipe/views.py" />
         <option value="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" />
       </list>
     </option>
@@ -120,6 +116,13 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="recipe" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="recipe-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recipe-api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -127,8 +130,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -154,12 +164,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611684975414</updated>
-      <workItem from="1611684979548" duration="1434000" />
+      <workItem from="1611684979548" duration="4073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1434000" />
+    <option name="totallyTimeSpent" value="4073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-33" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -194,22 +204,19 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/recipe/views.py">
+    <entry file="file://$PROJECT_DIR$/app/recipe/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="585">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/recipe/serializers.py">
+    <entry file="file://$PROJECT_DIR$/app/recipe/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="870">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -217,7 +224,7 @@
     <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="888">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
           </folding>
