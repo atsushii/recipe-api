@@ -52,7 +52,6 @@ def sample_recipe(user, **params):
 
 class PublicRecipeApiTests(TestCase):
     """Test unauthenticated recipe API access"""
-
     def setUp(self):
         self.client = APIClient()
 
@@ -65,7 +64,6 @@ class PublicRecipeApiTests(TestCase):
 
 class PrivateRecipeApiTests(TestCase):
     """Test unauthenticated recipe API access"""
-
     def setUp(self):
         self.client = APIClient()
         self.user = get_user_model().objects.create_user(
