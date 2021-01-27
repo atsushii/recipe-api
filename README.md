@@ -10,7 +10,7 @@ URL: https://www.udemy.com/course/django-python-advanced/
 - Python
 - Django
 - Docker
-- postgreSQl
+- postgreSQL
 - Travis CI
 - unittest
 
