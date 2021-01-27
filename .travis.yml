@@ -7,8 +7,7 @@ services:
 
 before_install: 
   - pip install docker-compose
-  - sudo service postgresql stop
-  - while sudo lsof -Pi :5432 -sTCP:LISTEN -t; do sleep 1; done
+  - docker-compose build .
 
 script:
   - docker-compose run app sh -c "python manage.py test && flake8"
