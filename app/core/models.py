@@ -19,7 +19,6 @@ class UserMamager(BaseUserManager):
 
     def create_user(self, email, password=None, **extra_fields):
         """Create and saves a new user"""
-
         if not email:
             raise ValueError('User must have an email address')
 
@@ -31,7 +30,6 @@ class UserMamager(BaseUserManager):
 
     def create_superuser(self, email, password):
         """Creates and saves a new super user"""
-
         user = self.create_user(email, password)
         user.is_staff = True
         user.is_superuser = True
@@ -42,7 +40,6 @@ class UserMamager(BaseUserManager):
 
 class User(AbstractBaseUser, PermissionsMixin):
     """Custom user model that support using email instead of username"""
-
     email = models.EmailField(max_length=255, unique=True)
     name = models.CharField(max_length=255)
     is_active = models.BooleanField(default=True)
@@ -54,7 +51,6 @@ class User(AbstractBaseUser, PermissionsMixin):
 
 class Tag(models.Model):
     """Tag to be used for a recipe"""
-
     name = models.CharField(max_length=255)
     user = models.ForeignKey(
         settings.AUTH_USER_MODEL,
